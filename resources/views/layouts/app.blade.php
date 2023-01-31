@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>@yield('title') - TheVRCoaches</title>
 =======
     <title>@yield('title')</title>
 >>>>>>> fe03e03 (Footer made)
+=======
+    <title>@yield('title') - TheVRCoaches</title>
+>>>>>>> e697008 (Page title fix)
 </head>
 <body class="h-screen">
 
