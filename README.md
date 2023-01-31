@@ -23,6 +23,7 @@ In dit project gebruiken we [TailwindCSS](https://tailwindcss.com/), dat wordt d
 ```npm run dev```
 
 
+<<<<<<< HEAD
 ## Localhost
 
 Als je dit wil runnen op localhost kan je het volgende in typen in je terminal
@@ -41,3 +42,6 @@ Dit maakt een nieuwe key aan zodat jij dit op je server kan runnen. Vervolgens g
 ```php artisan serve``` met daarnaast ```npm run dev```.
 
 Zie je geen TailwindCSS? Vergeet dan niet ```@vite(resources/css/app.css)``` in je HTML of Blade file te stoppen.
+=======
+
+>>>>>>> d7a82fe (Update README.md)
