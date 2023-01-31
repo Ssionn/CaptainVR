@@ -23,4 +23,21 @@ In dit project gebruiken we [TailwindCSS](https://tailwindcss.com/), dat wordt d
 ```npm run dev```
 
 
+## Localhost
 
+Als je dit wil runnen op localhost kan je het volgende in typen in je terminal
+
+```php artisan serve```
+
+Gooit hij een error? Dan heb je geen ```.env``` file in je folder.
+Er zit een example versie in de folder. Copy and paste de file en hernoem het naar ```.env```.
+
+Daarna geef je deze command mee;
+
+```php artisan key:generate```
+
+Dit maakt een nieuwe key aan zodat jij dit op je server kan runnen. Vervolgens gebruik je;
+
+```php artisan serve``` met daarnaast ```npm run dev```.
+
+Zie je geen TailwindCSS? Vergeet dan niet ```@vite(resources/css/app.css)``` in je HTML of Blade file te stoppen.
