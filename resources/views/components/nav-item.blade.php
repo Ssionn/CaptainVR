@@ -8,6 +8,6 @@ $classes = ($active ?? false)
 
 @endphp
 
-<a {{ $attributes->merge(['class' => 'px-3 mx-1 py-2 rounded-md text-sm font-medium ' . $classes]) }} href="{{ $href }}">
+<a {{ $attributes->merge(['class' => 'px-3 mx-1 py-2 rounded-none text-sm font-medium ' . $classes]) }} href="{{ $href }}">
     {{ $slot }}
 </a>

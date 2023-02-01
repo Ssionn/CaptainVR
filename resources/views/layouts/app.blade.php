@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>@yield('title') - TheVRCoaches</title>
 </head>
-<body class="h-screen zoom-0.5">
+<body class="h-screen">
 
 <nav class="bg-white h-[60px] flex items-center shadow-md">
     <div class="container mx-auto px-6 py-2 flex items-center justify-between">
@@ -93,6 +93,7 @@
         </div>
     </footer>
 </div>
+
 
 
 </body>
