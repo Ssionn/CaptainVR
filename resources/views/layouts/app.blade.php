@@ -45,10 +45,10 @@
 
 @yield('content')
 
-<footer class="bg-gray-900 text-white py-12 absolute bottom-0 w-full">
+<footer class="bg-gray-900 text-white absolute bottom-0 w-full mt-2">
     <div class="container mx-auto">
         <div class="flex flex-wrap">
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6">
+            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
                 <h3 class="font-medium mb-3">VR Coaches</h3>
                 <ul class="list-reset">
                     <li class="mb-2">VR Lifecoaches</li>
@@ -62,7 +62,7 @@
                     <li class="mb-2">VR Psychology en therapy</li>
                 </ul>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6">
+            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
                 <h3 class="font-medium mb-3">Metaverse Coaches</h3>
                 <ul class="list-reset">
                     <li class="mb-2">Metaverse Lifecoaches</li>
@@ -74,7 +74,7 @@
                     <li class="mb-2">Metaverse Team coaches/ organizations</li>
                 </ul>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6">
+            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
                 <h3 class="font-medium mb-3">XR Education</h3>
                 <ul class="list-reset">
                     <li class="mb-2">XR Education</li>
@@ -92,7 +92,7 @@
                     <li class="mb-2">XR Consultant & Business Developer (Expert)</li>
                 </ul>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6">
+            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
                 <h3 class="font-medium mb-3">XR Products</h3>
                 <ul class="list-reset">
                     <li class="mb-2">VR MoodBooster</li>
@@ -114,6 +114,9 @@
                     <li class="mb-2">De Captain App</li>
                 </ul>
             </div>
+        </div>
+        <div class="flex justify-center pb-10">
+            <h1 class="text-center">&copy; Made by Bit-Academy. All rights reserved</h1>
         </div>
     </div>
 </footer>
