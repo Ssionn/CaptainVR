@@ -15,4 +15,11 @@ class ExampleTest extends TestCase
     {
         $this->assertTrue(true);
     }
+
+    public function test_that_return_coaches_from_database()
+    {
+        $this->assertDatabaseHas('coaches', [
+            'name' => 'John Doe',
+        ]);
+    }
 }
