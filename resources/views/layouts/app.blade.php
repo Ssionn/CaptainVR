@@ -5,9 +5,10 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @vite('resources/css/app.css')
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>@yield('title') - TheVRCoaches</title>
 </head>
-<body class="h-screen">
+<body class="h-screen zoom-0.5">
 
 <nav class="bg-white h-[60px] flex items-center shadow-md">
     <div class="container mx-auto px-6 py-2 flex items-center justify-between">
@@ -45,80 +46,55 @@
 
 @yield('content')
 
-<footer class="bg-gray-900 text-white absolute bottom-0 w-full mt-2">
-    <div class="container mx-auto">
-        <div class="flex flex-wrap">
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
-                <h3 class="font-medium mb-3">VR Coaches</h3>
-                <ul class="list-reset">
-                    <li class="mb-2">VR Lifecoaches</li>
-                    <li class="mb-2">VR Mindfullness/ Meditation coaches</li>
-                    <li class="mb-2">VR Educational coaches/ trainers</li>
-                    <li class="mb-2">VR Business coaches</li>
-                    <li class="mb-2">VR Youth coaches</li>
-                    <li class="mb-2">VR Language coaches</li>
-                    <li class="mb-2">VR Team coaches/ organizations</li>
-                    <li class="mb-2">VR Transformational coaches/ organizations</li>
-                    <li class="mb-2">VR Psychology en therapy</li>
-                </ul>
+<div class="relative min-h-screen">
+    <footer class="bg-[#232323] text-white py-8 absolute inset-x-0 bottom-0 w-full">
+        <div class="container mx-auto flex flex-wrap">
+            <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
+                <h5 class="text-lg font-medium">&nbsp; VR Coaches</h5>
+                <h5 class="text-lg font-medium">Metaverse Coaches</h5>
+                <h5 class="text-lg font-medium">XR Academy</h5>
+                <h5 class="text-lg font-medium">XR Products</h5>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
-                <h3 class="font-medium mb-3">Metaverse Coaches</h3>
-                <ul class="list-reset">
-                    <li class="mb-2">Metaverse Lifecoaches</li>
-                    <li class="mb-2">Metaverse Mindfullness/ Meditation coaches</li>
-                    <li class="mb-2">Metaverse Educational coaches/ trainers</li>
-                    <li class="mb-2">Metaverse Business coaches</li>
-                    <li class="mb-2">Metaverse Youth coaches</li>
-                    <li class="mb-2">Metaverse Language coaches</li>
-                    <li class="mb-2">Metaverse Team coaches/ organizations</li>
-                </ul>
+            <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
+                <h5 class="text-lg font-medium">Captain app</h5>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
-                <h3 class="font-medium mb-3">XR Education</h3>
-                <ul class="list-reset">
-                    <li class="mb-2">XR Education</li>
-                    <li class="mb-2">VR coach program (Basic)</li>
-                    <li class="mb-2">Metaverse coach/trainers program (Basic)</li>
-                    <li class="mb-2">Metaverse Worldbuilder program (Basic)</li>
-                    <li class="mb-2">Metaverse Event Manager program (Basic)</li>
-                    <li class="mb-2">Metaverse Consultant & Business Developer (Basic)</li>
-                    <li class="mb-2">XR Consultant & Business Developer (Basic)</li>
-                    <li class="mb-2">VR coach program (Expert)</li>
-                    <li class="mb-2">Metaverse coach/trainer program (Expert)</li>
-                    <li class="mb-2">Metaverse Worldbuilder program (Expert)</li>
-                    <li class="mb-2">Metaverse Event Manager program (Expert)</li>
-                    <li class="mb-2">Metaverse Consultant & Business Developer (Expert)</li>
-                    <li class="mb-2">XR Consultant & Business Developer (Expert)</li>
-                </ul>
+            <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
+                <h5 class="text-lg font-medium">&nbsp; Basic packages</h5>
+                <h5 class="text-lg font-medium">Expert packages</h5>
             </div>
-            <div class="w-full md:w-1/4 text-center md:text-left mb-6 pt-16">
-                <h3 class="font-medium mb-3">XR Products</h3>
-                <ul class="list-reset">
-                    <li class="mb-2">VR MoodBooster</li>
-                    <li class="mb-2">Healium</li>
-                    <li class="mb-2">VR WallClimbing</li>
-                    <li class="mb-2">Metaverse Leadership Experience MazeRunner</li>
-                    <li class="mb-2">Metaverse Experience HappinessMaze</li>
-                    <li class="mb-2">Metaverse Spaces</li>
-                    <li class="mb-2">Coaching Spaces</li>
-                    <li class="mb-2">Metaverse Training Spaces</li>
-                    <li class="mb-2">Metaverse Mindfulness & Meditation Spaces</li>
-                    <li class="mb-2">Visualization Spaces</li>
-                    <li class="mb-2">Metaverse Onboarding Spaces</li>
-                    <li class="mb-2">Metaverse Workspaces</li>
-                    <li class="mb-2">Hybrid/ Metaverse Spaces</li>
-                    <li class="mb-2">Hybrid/ Metaverse workspaces</li>
-                    <li class="mb-2">Hybrid/Metaverse training spaces</li>
-                    <li class="mb-2">Hybrid/Metaverse meeting spaces</li>
-                    <li class="mb-2">De Captain App</li>
-                </ul>
+            <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
+                <h5 class="text-lg font-medium underline">Contact CaptainVR</h5>
+                <p class="text-md mt-2">
+                    <i class="fa fa-map-marker"></i>
+                    Prinses Margrietplantsoen 33<br>
+                    2595 AM ‘s-Gravenhage
+                </p>
+                <p class="text-md mt-2">
+                    <i class="fa fa-phone"></i>
+                    +31618137271
+                </p>
+                <p class="text-md">
+                    <a href="mailto:info@captainvr.nl">
+                        <i class="fa fa-envelope"></i>
+                        info@captainvr.nl
+                    </a>
+                </p>
+            </div>
+            <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2452.0346379988237!2d4.332702836299941!3d52.07909931490961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b7059ce880bf%3A0x7382e12271b4d1ef!2sPr.%20Margrietplantsoen%2033%2C%202595%20AM%20Den%20Haag!5e0!3m2!1snl!2snl!4v1675244672977!5m2!1snl!2snl"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <div class="flex justify-center pb-10">
-            <h1 class="text-center">&copy; Made by Bit-Academy. All rights reserved</h1>
+        <div class="container mx-auto text-center py-4">
+            <hr/>
+            <p class="text-sm mt-2">Copyright &copy; CaptainVR 2023</p>
         </div>
-    </div>
-</footer>
+    </footer>
+</div>
+
+
+
 </body>
 </html>
