@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div class=" w-1/2 z-10 -skew-x-6 h-72 bg-gradient-to-r from-indigo-500 to-cyan-400 relative">
+        <div class=" w-1/2 z-10 -skew-x-6 h-72 bg-gradient-to-r from-indigo-50'0 to-cyan-400 relative">
             <div class="flex flex-row">
                 <img src="{{ asset('images/pinkgradient-vrheadset.jpg') }}" class="h-56 w-56 skew-x-6 bg-gradient-to-r from-purple-500 to-cyan-300 rounded-full p-1 ml-56 mt-36 z-0">
                 <img src="{{ asset('images/purplegradient-vrheadset.jpg') }}" class="h-24 w-24 skew-x-6 bg-gradient-to-r from-purple-500 to-cyan-300 rounded-full p-1 ml-76 mt-16 z-10">
@@ -25,9 +25,9 @@
             <div class="flex justify-center w-2/5 h-76 bg-cyan-400 mb-16 p-6 rounded-xl shadow-2xl">
                 <p class="font-sans text-gray-100 text-lg w-auto h-auto">
                     <span class="font-bold text-white text-xl">Why VR coaching or Metaverse coaching?</span><br/>
-                    We believe that learning and coaching will become increasingly digitized. The most effective, interactive, and fun 
-                    learning environments will be hybrid, multi-user, and immersive learning environments. Where you can meet each other 
-                    from your own 'living room' in an XR space / the Metaverse while still having the feeling of being together. Moonshot: 
+                    We believe that learning and coaching will become increasingly digitized. The most effective, interactive, and fun
+                    learning environments will be hybrid, multi-user, and immersive learning environments. Where you can meet each other
+                    from your own 'living room' in an XR space / the Metaverse while still having the feeling of being together. Moonshot:
                     By 2030 the best and most inspiring XR coaching experiences accessible on every corner of the world.
                 </p>
             </div>
