@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div class=" w-1/2 z-10 -skew-x-6 h-72 bg-gradient-to-r from-indigo-50'0 to-cyan-400 relative">
+        <div class=" w-1/2 z-10 -skew-x-6 h-72 bg-gradient-to-r from-indigo-500 to-cyan-400 relative">
             <div class="flex flex-row">
                 <img src="{{ asset('images/pinkgradient-vrheadset.jpg') }}" class="h-56 w-56 skew-x-6 bg-gradient-to-r from-purple-500 to-cyan-300 rounded-full p-1 ml-56 mt-36 z-0">
                 <img src="{{ asset('images/purplegradient-vrheadset.jpg') }}" class="h-24 w-24 skew-x-6 bg-gradient-to-r from-purple-500 to-cyan-300 rounded-full p-1 ml-76 mt-16 z-10">
@@ -22,43 +22,57 @@
 
     <div class="flex ml-96 w-auto h-auto mt-36">
         <div class="flex flex-col ml-48">
-            <div class="flex justify-center w-2/5 h-76 bg-cyan-400 mb-16 p-6 rounded-xl shadow-2xl">
-                <p class="font-sans text-gray-100 text-lg w-auto h-auto">
-                    <span class="font-bold text-white text-xl">Why VR coaching or Metaverse coaching?</span><br/>
+            <div class="flex justify-center w-2/5 h-90 bg-cyan-400 mb-16 p-6 rounded-xl shadow-2xl">
+                <p class="font-sans text-gray-100 text-xl w-auto h-auto">
+                    <span class="font-bold text-white text-2xl">Why VR coaching or Metaverse coaching?</span><br/>
                     We believe that learning and coaching will become increasingly digitized. The most effective, interactive, and fun
                     learning environments will be hybrid, multi-user, and immersive learning environments. Where you can meet each other
                     from your own 'living room' in an XR space / the Metaverse while still having the feeling of being together. Moonshot:
                     By 2030 the best and most inspiring XR coaching experiences accessible on every corner of the world.
                 </p>
             </div>
-            <div class="flex flex-col w-96 h-56 bg-indigo-400 mb-16 ml-96 p-6 rounded-xl shadow-2xl">
-                <p class="font-sans text-gray-100 text-lg w-auto h-auto">
+            <div class="flex flex-col w-5/12 h-56 bg-indigo-400 mb-16 ml-96 p-6 rounded-xl shadow-2xl">
+                <p class="font-sans text-gray-100 text-xl w-auto h-auto">
                     Do you want to be part of teaching, coaching and even creating the best and most inspiring XR coaching and learning experiences?
                     Come on board and sail along into the future!<br/>
                 </p>
                 <a href="{{ route('sail_along') }}"
-                    class="bg-yellow-500 rounded-full w-28 ml-28 mt-4 mb-1 px-5 py-1 text-teal-800 hover:text-teal-900 hover:scale-105 transition duration-300 ease-in-out">
+                    class="flex bg-yellow-500 rounded-full items-center justify-center w-32 ml-44 mt-4 mb-1 px-5 py-1 text-lg text-teal-800 hover:text-teal-900 hover:scale-105 transition duration-300 ease-in-out">
                     {{ __('Sail Along') }}
                 </a>
+            </div>
+
+            <div class="w-2/6 h-76 bg-purple-400 p-6 rounded-xl shadow-2xl">
+                <div class="flex flex-col">
+                    <p class="-sans text-gray-100 text-lg w-auto h-auto">
+                        <span class="font-bold text-white text-2xl">Find your VR Coach Here</span>
+                    </p>
+                    <div class="flex justify-center mt-4">
+                        <a href="{{ route('vr_coaches') }}"
+                            class="flex border-2 border-white rounded-md w-36 h-12 items-center justify-center text-white text-xl font-bold">
+                            {{ __('VR Coaches') }}
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="ml-96">
-        <div class="flex justify-center w-1/5 h-76 bg-purple-400 ml-28 p-6 rounded-xl shadow-2xl">
+    {{-- <div class="ml-96">
+        <div class="flex justify-center w-2/6 h-76 bg-purple-400 ml-28 p-6 rounded-xl shadow-2xl">
             <div class="flex flex-col">
                 <p class="-sans text-gray-100 text-lg w-auto h-auto">
-                    <span class="font-bold text-white text-xl">Find your VR Coach Here</span>
+                    <span class="font-bold text-white text-2xl">Find your VR Coach Here</span>
                 </p>
                 <div class="flex justify-center mt-4">
                     <a href="{{ route('vr_coaches') }}"
-                        class="flex border-2 border-white rounded-md w-36 h-12 items-center justify-center text-white text-m font-bold">
+                        class="flex border-2 border-white rounded-md w-36 h-12 items-center justify-center text-white text-xl font-bold">
                         {{ __('VR Coaches') }}
                     </a>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <div class="flex justify-end">
         <div class="flex flex-row">
