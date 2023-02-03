@@ -20,7 +20,7 @@
         </div>
     </div>
 
-    <div class="flex ml-96 w-auto h-auto mt-36">
+    <div class="flex ml-96 w-auto h-auto">
         <div class="flex flex-col ml-48">
             <div class="flex justify-center w-2/5 h-90 bg-cyan-400 mb-16 p-6 rounded-xl shadow-2xl">
                 <p class="font-sans text-gray-100 text-xl w-auto h-auto">
