@@ -44,7 +44,7 @@
 
             <div class="w-2/6 h-76 bg-purple-400 p-6 rounded-xl shadow-2xl">
                 <div class="flex flex-col">
-                    <p class="-sans text-gray-100 text-lg w-auto h-auto">
+                    <p class="flex justify-center text-gray-100 text-lg w-auto h-auto">
                         <span class="font-bold text-white text-2xl">Find your VR Coach Here</span>
                     </p>
                     <div class="flex justify-center mt-4">
@@ -57,22 +57,6 @@
             </div>
         </div>
     </div>
-
-    {{-- <div class="ml-96">
-        <div class="flex justify-center w-2/6 h-76 bg-purple-400 ml-28 p-6 rounded-xl shadow-2xl">
-            <div class="flex flex-col">
-                <p class="-sans text-gray-100 text-lg w-auto h-auto">
-                    <span class="font-bold text-white text-2xl">Find your VR Coach Here</span>
-                </p>
-                <div class="flex justify-center mt-4">
-                    <a href="{{ route('vr_coaches') }}"
-                        class="flex border-2 border-white rounded-md w-36 h-12 items-center justify-center text-white text-xl font-bold">
-                        {{ __('VR Coaches') }}
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div> --}}
 
     <div class="flex justify-end">
         <div class="flex flex-row">
