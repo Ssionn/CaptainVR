@@ -14,7 +14,6 @@
     @endphp
 </head>
 
-
 <body class="h-screen bg-slate-100">
 
 <nav class=" bg-white h-[60px] flex items-center shadow-md">
