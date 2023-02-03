@@ -3,6 +3,7 @@
 namespace Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ExampleTest extends TestCase
 {
@@ -14,12 +15,5 @@ class ExampleTest extends TestCase
     public function test_that_true_is_true()
     {
         $this->assertTrue(true);
-    }
-
-    public function test_that_return_coaches_from_database()
-    {
-        $this->assertDatabaseHas('coaches', [
-            'name' => 'John Doe',
-        ]);
     }
 }

@@ -28,7 +28,7 @@
                     </span>
                         </div>
                         <div class="px-6 py-4 text-center mb-3">
-                            <a href="{{ route('vr_coaches.show', Str::slug($coach->name)) }}"
+                            <a href="{{ route('metaverse_coaches.show', Str::slug($coach->name)) }}"
                                class="bg-indigo-500 hover:bg-indigo-700 text-white font-bold py-2 px-2 rounded">Bekijk
                                 profiel</a>
                         </div>

@@ -4,6 +4,8 @@ namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use App\Models\Coach;
+use App\Models\Package;
+use App\Models\Academic;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -19,5 +21,10 @@ class DatabaseSeeder extends Seeder
             'profession' => 'Coach',
         ]);
 
+        Academic::factory()->count(6)->create();
+
+        Package::factory()->count(3)->create([
+            'academic_id' => 2,
+        ]);
     }
 }

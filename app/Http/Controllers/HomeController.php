@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Academic;
 use App\Models\Coach;
+use App\Models\Package;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -18,6 +20,7 @@ class HomeController extends Controller
             'coaches' => Coach::all(),
         ]);
     }
+
     public function metaverse_coaches()
     {
         return view('home.metaversecoaches', [
@@ -27,7 +30,10 @@ class HomeController extends Controller
 
     public function xr_academy()
     {
-        return view('home.xracademy');
+        return view('home.xracademy', [
+            'academics' => Academic::all(),
+            'packages' => Package::all(),
+        ]);
     }
 
     public function xr_products()
@@ -44,6 +50,7 @@ class HomeController extends Controller
     {
         return view('home.contact');
     }
+
     public function vr_show(Request $request)
     {
         return view('home.vr_coaches.show', [
@@ -57,4 +64,10 @@ class HomeController extends Controller
             'coach' => Coach::where('name', str_replace('-', ' ', $request->name))->firstOrFail(),
         ]);
     }
+
+    public function xr_academy_show(Request $request)
+    {
+    }
+
+
 }

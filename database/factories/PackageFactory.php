@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Model>
  */
-class CoachFactory extends Factory
+class PackageFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -17,13 +17,10 @@ class CoachFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->firstName . ' ' . $this->faker->lastName,
+            'title' => $this->faker->unique()->word,
             'image' => $this->faker->imageUrl(),
-            'profession' => $this->faker->jobTitle,
-            'bio' => $this->faker->paragraph(10),
-            'location' => $this->faker->city,
-            'phone' => $this->faker->phoneNumber,
-            'email' => $this->faker->safeEmail,
+            'description' => $this->faker->paragraph,
+            'price' => $this->faker->numberBetween(30, 500),
         ];
     }
 }
