@@ -17,7 +17,7 @@ return new class extends Migration {
             $table->unsignedBigInteger('package_id');
             $table->string('title')->unique();
             $table->string('image');
-            $table->string('description');
+            $table->string('description', 5000);
             $table->timestamps();
         });
 }

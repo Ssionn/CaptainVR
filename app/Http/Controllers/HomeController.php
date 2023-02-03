@@ -67,7 +67,22 @@ class HomeController extends Controller
 
     public function xr_academy_show(Request $request)
     {
+        $academic = Academic::where('title', str_replace('-', ' ', $request->title))->firstOrFail();
+        $packages = Package::where('academic_id', $academic->id)->get();
+
+        return view('home.xr_academy.show', [
+            'academic' => $academic,
+            'packages' => $packages,
+        ]);
     }
 
+    public function xr_academy_show_package(Request $request)
+    {
+        $package = Package::where('id', $request->id)->firstOrFail();
+
+        return view('home.xr_academy.package.show', [
+            'package' => $package
+        ]);
+    }
 
 }
