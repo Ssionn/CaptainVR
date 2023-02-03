@@ -17,7 +17,7 @@ class PackageFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->unique()->word,
+            'name' => $this->faker->unique()->word,
             'image' => $this->faker->imageUrl(),
             'description' => $this->faker->paragraph,
             'price' => $this->faker->numberBetween(30, 500),

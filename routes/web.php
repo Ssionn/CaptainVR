@@ -25,7 +25,8 @@ Route::get('/metaverse-coaches/{name}', [HomeController::class, 'meta_show'])->n
 
 
 Route::get('/xr-academy', [HomeController::class, 'xr_academy'])->name('xr_academy');
-Route::get('/xr-academy/{id}', [HomeController::class, 'xr_academy_show'])->name('xr_academy.show');
+Route::get('/xr-academy/{title}', [HomeController::class, 'xr_academy_show'])->name('xr_academy.show');
+Route::get('/xr-academy/{title}/{id}', [HomeController::class, 'xr_academy_show_package'])->name('xr_academy.package.show');
 
 Route::get('/xr-products', [HomeController::class, 'xr_products'])->name('xr_products');
 

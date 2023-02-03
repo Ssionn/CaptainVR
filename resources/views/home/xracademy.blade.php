@@ -11,7 +11,7 @@
                     <div class="bg-white rounded overflow-hidden shadow-lg w-[320px] transition ease-in-out hover:scale-110">
                         <img src="{{ $academic->image }}" alt="Image" class="w-full">
                         <div class="px-6 py-4 flex justify-center">
-                                <a href="{{ route('xr_academy.show', $academic->id) }}" class="text-gray-900 font-bold text-md mb-2 pt-2 underline">{{ $academic->title }}</a>
+                                <a href="{{ route('xr_academy.show', Str::slug($academic->title)) }}" class="text-gray-900 font-bold text-md mb-2 pt-2 underline">{{ $academic->title }}</a>
                         </div>
                     </div>
                 </div>

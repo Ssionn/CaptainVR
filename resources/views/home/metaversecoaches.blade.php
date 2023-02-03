@@ -9,13 +9,13 @@
     {{--Einde hero--}}
 
 
-    <div class="w-full max-w-screen-xl mx-auto mt-20">
+    <div class="w-full max-w-screen-xl mx-auto mt-24">
         <div class="grid grid-cols-4 gap-6">
             @foreach($coaches as $coach)
                 <div class="col-span-1">
                     <div class="max-w-[320px] m-4 mx-auto border border-gray-400 shadow-xl rounded-lg overflow-hidden">
                         <img class="w-36 h-36 rounded-full object-cover flex justify-center mx-auto mt-2"
-                             src="{{ $coach['image'] }}" alt="Your Image">
+                             src="{{ $coach->image }}" alt="Your Image">
                         <div class="px-6 py-4 text-center">
                             <div class="font-bold text-xl mb-2">{{ $coach->name }}</div>
                             <p class="text-gray-700 text-base mt-1">{{ $coach->profession }}</p>
