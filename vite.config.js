@@ -6,7 +6,12 @@ export default defineConfig({
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.js'],
             refresh: true,
+<<<<<<< HEAD
             // valetTls: 'captainvr.test',
         }),
+=======
+            valetTls: 'captainvr.test',
+}),
+>>>>>>> 09d786e (Vite fixed)
     ],
 });
