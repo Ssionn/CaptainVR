@@ -9,9 +9,6 @@
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <title>@yield('title') - TheVRCoaches</title>
-    @php
-        header('Access-Control-Allow-Origin: *');
-    @endphp
 </head>
 
 <body class="h-screen bg-slate-100">
@@ -56,7 +53,7 @@
     <footer class="bg-[#232323] text-white py-8 absolute inset-x-0 bottom-0 w-full">
         <div class="container mx-auto flex flex-wrap">
             <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
-                <h1 class="text-lg font-medium">&nbsp; VR Coaches</h1>
+                <h1 class="text-lg font-medium">&nbsp;VR Coaches</h1>
                 <h2 class="text-lg font-medium">Metaverse Coaches</h2>
                 <h2 class="text-lg font-medium">XR Academy</h2>
                 <h2 class="text-lg font-medium">XR Products</h2>
@@ -65,7 +62,7 @@
                 <h2 class="text-lg font-medium">Captain app</h2>
             </div>
             <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
-                <h2 class="text-lg font-medium">&nbsp; Basic packages</h2>
+                <h2 class="text-lg font-medium">&nbsp;Basic packages</h2>
                 <h2 class="text-lg font-medium">Expert packages</h2>
             </div>
             <div class="w-full md:w-1/5 text-center md:text-left space-x-2 pt-2">
